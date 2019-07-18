@@ -1,0 +1,42 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+input {
+    width: 100%;
+}
+
+.card-header {
+    .order-type {
+        display: inline-block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        padding: 0 5px 0 15px;
+
+    }
+    a {
+        text-decoration: none;
+        svg {
+            width: 18px;
+            height: 18px;
+        }
+    }
+}
+
+form.filter {
+    input {
+        width: 100px;
+        font-size: 14px;
+        height: 20px;
+    }
+    button {
+        // height: 20px;
+        // font-size: 14px;
+    }
+}
